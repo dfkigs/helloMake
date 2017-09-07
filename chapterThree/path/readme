@@ -26,3 +26,4 @@ keywords
 	   vpath %.x [path3]
 	4) reset vpath for %.x
 	   vpath %.x
+

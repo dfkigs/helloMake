@@ -1,3 +1,8 @@
+#  1)
+# target : prerequisites ; command
+#  2)
+# target : prerequisites
+#	command
 one: ; @echo "one"
 
 two :
