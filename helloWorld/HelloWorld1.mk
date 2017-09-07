@@ -9,6 +9,8 @@
 ALL :
 	echo "Hello Makefile!"
 	echo "Hello Makefile 2!"
+	# 	error comment for Makefile		--->  begin from [TAB], will be passed to SHELL.  not a valid makefile comment
+#	comment for makefile				--->  a makefile comment
 	@echo "Hello Makefile 3!"
 
 #echo "Hello Makefile!"
