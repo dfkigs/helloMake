@@ -7,9 +7,10 @@ vpath %.h ./inc
 
 # 1)  change order will cause use:  two/two.c or three/two.c
 # 2)  vpath can be placed every where
-vpath %.c ./one
-vpath %.c ./two
-vpath %.c ./three
+vpath %.c ./one ./three ./two 
+#vpath %.c ./one
+#vpath %.c ./two
+#vpath %.c ./three
 
 main3 : one.c two.c main.h
 	@echo $^
