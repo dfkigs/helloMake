@@ -11,4 +11,4 @@ print : foo.c bar.c
 # if foo.c bar.c is not existed, .DEFAULT will be called
 # whether or not foo.c bar.c be created.
 .DEFAULT :
-	touch aaa.c
+	touch foo.c bar.c
