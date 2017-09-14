@@ -1,8 +1,10 @@
 FOO = $PATH
-
+#
+# 
 all :
 	@echo $(FOO)
-	echo $(value FOO)
+	@echo $(value FOO)
+	@echo $$PATH
 
 # 
 # $echo $PATH
