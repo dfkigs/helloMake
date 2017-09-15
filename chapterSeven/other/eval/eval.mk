@@ -29,6 +29,5 @@ $(PROGRAMS) :
 	@echo "$(LINK.o) $^ $(LDLIBS) -o $@"
 #	$(LINK.o) $^ $(LDLIBS) -o $@
 
-
 clean :
 	$(RM) *.o
